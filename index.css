@@ -1,0 +1,45 @@
+.main{
+  margin: auto;
+  width: 600px;
+  font-family: 'Smythe', cursive;
+}
+
+
+
+.food-menu{
+  display: flex;
+  width: 508px;
+  margin: auto;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #8B8B8B;
+}
+
+.food-item{
+  margin-right: 100px;
+}
+
+.food-item h4{
+  font-size: 28px;
+  font-weight: 400px;
+  line-height: 16.8px;
+  margin-bottom: 0;
+}
+
+
+.small-text{
+  font-size: 16px;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+
+
+.add-to-cart{
+  border: 1px solid grey;
+  border-radius: 50%;
+  align-self: center;
+  padding: 5px 10px;
+  background: white;
+  /* margin-left: 180px */
+
+}
