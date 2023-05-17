@@ -16,6 +16,12 @@
   padding: 45px 0;
 }
 
+.food-emoji{
+  width: 70px;
+  height: 89px;
+  font-size: 78.72px;
+}
+
 .food-item{
   margin-right: 100px;
 }
@@ -68,7 +74,9 @@
 .cart{
   width: 508px;
   margin: auto;
+  display: none;
 }
+
 
 .cart h2{
   text-align: center;
@@ -79,4 +87,26 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
+}
+
+.cart-total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.purchase-btn{
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  background: #16DB99;
+  border-radius: 2%;
+  border: none;
+  color: white;
+}
+
+span{
+  color: #BBBBBB;
+  font-size: 12px;
 }
